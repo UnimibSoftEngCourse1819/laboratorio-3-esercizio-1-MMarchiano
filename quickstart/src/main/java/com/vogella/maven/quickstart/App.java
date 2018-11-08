@@ -1,0 +1,16 @@
+package com.vogella.maven.quickstart;
+
+import com.google.gson.Gson;
+
+/**
+ * Hello World! 
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {	
+    	Gson gson = new Gson();
+        System.out.println( gson.toJson("Hello World!") );
+    }
+}
